@@ -26,6 +26,6 @@ It fetches real-time weather data based on the city name you enter.
 3. Run the app locally: `npm start`
   
 ## 🚀 Live Demo
-graceful-tartufo-ed0874.netlify.app
-[Click the above link to visit the live app]
+https://graceful-tartufo-ed0874.netlify.app/
+[Click the link to visit the live app]
 
