@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('./assets/images/bg1.gif');
+
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./assets/images/bg1.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 500px;
+}
+
+.weather-app {
+  width: 100%;
+  max-width: 400px;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.search-input {
+  flex: 1;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.9);
+  font-size: 1rem;
+  color: black;
+}
+
+.search-button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  background: rgba(76, 86, 106, 0.8);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.search-button:hover {
+  background: rgba(99, 112, 138, 0.9);
+}
+
+.weather-card {
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.city-name {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.temperature {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  color: white;
+}
+
+.description {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.9);
+  background: rgba(128, 0, 255, 0.2);
+  padding: 5px 15px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  gap:20px;
+}
+
+.detail {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.loading {
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  margin: 2rem 0;
+}
+
+.error {
+  background: rgba(255, 0, 0, 0.2);
+  color: #ff9999;
+  padding: 1rem;
+  border-radius: 10px;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.clear-button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 10px;
+  background: rgba(76, 86, 106, 0.8);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.clear-button:hover {
+  background: rgba(255, 0, 0, 0.9);
+}
+
